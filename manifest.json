@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "native-chrome-notifications-test",
+    "short_name": "native-chrome-notifications-test",
+    "description": "native-chrome-notifications-test",
+    "version": "1.0.1",
+    "minimum_chrome_version": "1",
+    "icons": {
+        "16": "icon_16.png",
+        "128": "icon_128.png"
+    },
+
+    "app": {
+        "background": {
+            "scripts": ["index.js"]
+        }
+    },
+    "permissions":[
+        "system.display",
+        "notifications",
+        "power"
+    ],
+    "kiosk_enabled":true,
+    "offline_enabled": true
+}
